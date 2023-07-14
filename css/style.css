@@ -1,0 +1,134 @@
+@import url(https://fonts.google.com/specimen/Karla?query=karla);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+header{
+    background-image: url(../imagenes/angel.jpg);
+    height: 1100px;
+    background-size: cover;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(253,76,92,255);
+    height: 400px;
+}
+
+section{
+    background-color: rgba(255,255,255,255);
+    height: 2300px;
+}
+
+.titulo1{
+    color: aliceblue;
+    padding: 410px 25px 22px 135px;
+    font-size: 200px;
+    font-weight: 0;
+
+
+
+}
+
+.caja1{
+    display: flex;
+    padding: 120px 225px 22px 65px;
+
+
+
+}
+.caja2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 120px 65px 22px 225px;
+}
+
+.caja3{
+    display: flex;
+    padding: 220px 48px 26px 1185px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+
+.texto p{
+    margin-bottom: 20px
+}
+.texto{
+    padding: 135px 75px 40px 170px;
+}
+
+.texto1{
+    font-size: 80px;
+    font-weight: 590;
+    color: rgba(218,1,112,255);
+}
+.texto2{
+    font-size: 80px;
+    font-weight: 590;
+    color: rgba(54,54,54,255)
+    ;
+}
+
+.texto3{
+    font-size: 25px;
+    line-height: 2;
+    color: #747077;
+
+
+}
+
+.texto4{
+    color: aliceblue; 
+    font-size: 80px;
+    font-weight: 590;
+   
+}
+
+.texto5{
+    font-size: 25px;
+    line-height: 2;
+    color: aliceblue; 
+}
+
+.boton{
+    background-color: rgba(253,76,92,255);
+    border-radius: 35px;
+    border: none;
+    padding: 25px 90px;
+    margin: 10px 10px 10px 0px;
+    color: white;
+    font-size: 20PX;
+
+    
+}
+
+.img{
+    height: 1000px;
+    width: 800px;
+}
+
+.abajo{
+    background-image: url(../imagenes/raptis.png);
+    height: 872px;
+    background-size: cover;
+    text-align: center;
+}
+
+.lista{
+    display: flex;
+
+}
+
+.lista p{
+    color: aliceblue;
+    font-size: 19px;
+}
