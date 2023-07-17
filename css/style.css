@@ -16,9 +16,37 @@ header{
     text-align: center;
 }
 
-footer{
-    background-color: rgba(253,76,92,255);
-    height: 400px;
+footer {
+    background: rgb(253, 76, 92);
+    color: white;
+    padding: 86px 123px;
+}
+
+.copy{
+    display: flex;
+}
+.lista {
+    display: flex;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.253);
+    margin: 0px 0 30px 100px;
+}
+
+.lista div {
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.lista p {
+    margin: 10px 0 0 148px;
+}
+
+.arriba {
+    padding-bottom: 10px;
+}
+
+.copy1 {
+    margin: 0 1104px 0px 97px;
 }
 
 section{
